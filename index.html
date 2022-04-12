@@ -482,19 +482,22 @@
     ></textarea>
   </label>
 <!-- </div> -->
-  <div>
+  <div class="contact-form-checkbox-wrapper">
+    <svg class="" width="16" height="15">
+      <use href="./images/sprite.svg#icon-vector"></use>
+    </svg>
     <input
+      class="contact-form-checkbox visually-hidden"
       name="accept-policy"
       type="checkbox"
-
       id="policy-checkbox"
       required
     />
-    <label for="policy-checkbox">
-      Соглашаюсь с рассылкой и принимаю&nbsp;<a href="">Условия договора</a></label
+    <label class="contact-form-checkbox-label" for="policy-checkbox">
+      Соглашаюсь с рассылкой и принимаю&nbsp;<a class="contact-form-checkbox-label-link" href="">Условия договора</a></label
     >
   </div>
-  <button class="btn" type="submit">Отправить</button>
+  <button class="btn contact-form-checkbox-btn" type="submit">Отправить</button>
 </form>
     </div>
   </div>
