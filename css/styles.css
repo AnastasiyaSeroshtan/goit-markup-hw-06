@@ -819,6 +819,7 @@ img {
 .contact-form-input:focus {
   outline: none;
   border-color: var(--accent-color);
+  background-color: var(--primary-background-color);
   cursor: pointer;
 }
 
@@ -889,26 +890,11 @@ img {
   top: 50%;
   transform: translateY(-50%);
   opacity: 0;
-  /* background: #000; */
 }
 
 .contact-form-checkbox:focus + .contact-form-checkbox-label > .contact-form-checkbox-icon {
   fill: var(--accent-color);
 }
-
-/* .contact-form-checkbox-icon {
-  fill: var(--accent-color);
-  background: var(--accent-color);
-} */
-
-/* .contact-form-checkbox-label:checked + .contact-form-checkbox-icon {
-  background-color: var(--accent-color);
-  fill: var(--accent-color);
-}
-
-.contact-form-checkbox-label:checked ~ .contact-form-checkbox-icon-check {
-  opacity: 1;
-} */
 
 .contact-form-checkbox:checked + .contact-form-checkbox-label > .contact-form-checkbox-icon {
   background-color: var(--accent-color);
