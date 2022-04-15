@@ -833,7 +833,8 @@ img {
   fill: var(--accent-color);
 }
 
-.contact-form-input:not(:placeholder-shown):required {
+.contact-form-input:not(:placeholder-shown):required,
+.contact-form-message:not(:placeholder-shown) {
   border-color: var(--accent-color);
   background-color: var(--primary-background-color);
 }
